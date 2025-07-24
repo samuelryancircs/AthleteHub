@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AthleteHub</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f4f8;
+      color: #333;
+    }
+    header {
+      background: #1e3a8a;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .description {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+    .sections {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+    .card {
+      background: white;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+    .card h3 {
+      margin-top: 0;
+    }
+    @media (max-width: 768px) {
+      .sections {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AthleteHub</h1>
+    <p>Where dedicated gymnasts connect with college recruitment</p>
+  </header>
+
+  <div class="container">
+    <div class="description">
+      <p>
+        AthleteHub is my ultimate platform designed to bridge the gap between dedicated gymnasts and college recruitment. Whether you're an athlete looking to be seen, a coach scouting top talent, or someone striving to improve through elite guidance — AthleteHub is your home base.
+      </p>
+      <p>
+        We provide free tools to build your digital profile, upload training videos, connect with college coaches, and stay in control of your athletic journey. But we don’t stop there — with premium tiers like All-Star and Elite, you unlock advanced training resources, one-on-one mentorship, exclusive events, and direct pathways to collegiate gymnastics exposure.
+      </p>
+    </div>
+
+    <div class="sections">
+      <div class="card">
+        <img src="physique.jpg" alt="Physique Update" />
+        <h3>Physique Progress</h3>
+        <p>Tracking body development and physical performance for peak potential and growth.</p>
+      </div>
+
+      <div class="card">
+        <img src="food.jpg" alt="Nutrition" />
+        <h3>Nutrition + Fuel</h3>
+        <p>Understanding what fuels your body, how to recover fast, and performing at your best.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
