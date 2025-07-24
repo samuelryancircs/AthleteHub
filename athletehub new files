@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AthleteHub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to AthleteHub</h1>
+    <p>The ultimate platform for gymnasts, recruiters, and elite guidance.</p>
+  </header>
+
+  <section id="intro-images">
+    <h2>Explore My Journey</h2>
+    <img src="images/physique.jpg" alt="Physique" width="300">
+    <img src="images/diet.jpg" alt="Diet" width="300">
+    <img src="images/gymnastics.jpg" alt="Gymnastics" width="300">
+  </section>
+
+  <nav>
+    <ul>
+      <li><a href="physique.html">Physique</a></li>
+      <li><a href="diet.html">Diet</a></li>
+      <li><a href="gymnastics.html">Gymnastics</a></li>
+      <li><a href="socials.html">Social Links</a></li>
+    </ul>
+  </nav>
+
+  <footer>
+    <p>© 2025 AthleteHub. All rights reserved.</p>
+  </footer>
+</body>
+</html>
